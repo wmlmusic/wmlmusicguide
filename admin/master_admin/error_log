@@ -1,0 +1,85 @@
+[11-Dec-2014 17:25:16 UTC] PHP Warning:  mkdir(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 17
+[11-Dec-2014 17:25:16 UTC] PHP Warning:  chmod(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 18
+[11-Dec-2014 17:25:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmlmusic/public_html/site/admin/master_admin/includes/functions.php:57) in /home/wmlmusic/public_html/site/admin/master_admin/viewpages.php on line 22
+[11-Dec-2014 17:26:59 UTC] PHP Warning:  mkdir(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 17
+[11-Dec-2014 17:26:59 UTC] PHP Warning:  chmod(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 18
+[11-Dec-2014 17:26:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php:17) in /home/wmlmusic/public_html/site/admin/master_admin/viewpages.php on line 22
+[11-Dec-2014 17:33:14 UTC] PHP Warning:  mkdir(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 17
+[11-Dec-2014 17:33:14 UTC] PHP Warning:  chmod(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 18
+[11-Dec-2014 17:33:18 UTC] PHP Warning:  mkdir(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 17
+[11-Dec-2014 17:33:18 UTC] PHP Warning:  chmod(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 18
+[11-Dec-2014 17:33:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php:17) in /home/wmlmusic/public_html/site/admin/master_admin/viewpages.php on line 22
+[11-Dec-2014 17:33:45 UTC] PHP Warning:  mkdir(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 17
+[11-Dec-2014 17:33:45 UTC] PHP Warning:  chmod(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 18
+[11-Dec-2014 17:33:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php:17) in /home/wmlmusic/public_html/site/admin/master_admin/viewpages.php on line 22
+[11-Dec-2014 17:36:03 UTC] PHP Warning:  mkdir(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 19
+[11-Dec-2014 17:36:03 UTC] PHP Warning:  chmod(): No such file or directory in /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php on line 20
+[11-Dec-2014 17:36:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmlmusic/public_html/site/admin/master_admin/includes/inc.php:13) in /home/wmlmusic/public_html/site/admin/master_admin/viewpages.php on line 22
+[08-Jul-2015 07:26:33 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 20736 bytes) in /home/wmlmusic/public_html/admin/master_admin/includes/functions.php on line 164
+[08-Jul-2015 17:37:19 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 13824 bytes) in /home/wmlmusic/public_html/admin/master_admin/includes/functions.php on line 164
+[08-Jul-2015 17:39:33 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 13824 bytes) in /home/wmlmusic/public_html/admin/master_admin/includes/functions.php on line 164
+[16-Jul-2015 20:29:24 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18432 bytes) in /home/wmlmusic/public_html/admin/master_admin/includes/functions.php on line 164
+[27-Sep-2015 22:38:17 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 13824 bytes) in /home/wmlmusic/public_html/admin/master_admin/includes/functions.php on line 164
+[27-Oct-2015 10:32:28 UTC] PHP Fatal error:  Class 'User' not found in /home/wmlmusic/public_html/admin/master_admin/viewuser.php on line 97
+[27-Oct-2015 10:32:37 UTC] PHP Fatal error:  Class 'User' not found in /home/wmlmusic/public_html/admin/master_admin/viewuser.php on line 97
+[27-Oct-2015 10:33:41 UTC] PHP Fatal error:  Class 'User' not found in /home/wmlmusic/public_html/admin/master_admin/signupcontroller.php on line 3
+[27-Oct-2015 10:40:18 UTC] PHP Fatal error:  Call to undefined function layout() in /home/wmlmusic/public_html/admin/master_admin/message.php on line 10
+[27-Oct-2015 10:45:53 UTC] PHP Fatal error:  Class 'User' not found in /home/wmlmusic/public_html/admin/master_admin/viewuser.php on line 97
+[21-Jan-2016 20:52:35 UTC] PHP Fatal error:  Call to undefined method User::register_company() in /home/wmlmusic/public_html/admin/master_admin/cmpycontroller.php on line 14
+[24-Jan-2016 02:48:55 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 02:49:05 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 02:49:22 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 02:49:27 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 02:50:24 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 02:50:40 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:00:43 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:11:43 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:11:56 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:12:24 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:13:53 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:14:21 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:15:21 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:15:55 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:17:49 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:19:15 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:19:40 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:21:55 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:22:45 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:30:28 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:32:38 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:43:56 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:44:12 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[24-Jan-2016 03:46:18 UTC] PHP Fatal error:  Call to undefined function get_company_email() in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 13
+[26-Jan-2016 01:39:04 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[26-Jan-2016 01:39:26 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[26-Jan-2016 01:40:13 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[26-Jan-2016 01:41:20 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[26-Jan-2016 01:42:13 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[26-Jan-2016 01:43:53 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[26-Jan-2016 01:44:57 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[11-Feb-2016 02:41:34 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[11-Feb-2016 02:46:00 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[11-Feb-2016 02:59:49 UTC] PHP Fatal error:  Class 'Company' not found in /home/wmlmusic/public_html/admin/master_admin/ajax_company.php on line 12
+[22-Feb-2016 19:14:58 UTC] PHP Notice:  Array to string conversion in /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php on line 66
+[22-Feb-2016 19:14:58 UTC] PHP Warning:  move_uploaded_file() expects exactly 2 parameters, 4 given in /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php on line 66
+[22-Feb-2016 19:14:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php:66) in /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php on line 92
+[22-Feb-2016 19:22:14 UTC] PHP Notice:  Array to string conversion in /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php on line 67
+[22-Feb-2016 19:22:14 UTC] PHP Warning:  move_uploaded_file() expects exactly 2 parameters, 4 given in /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php on line 67
+[22-Feb-2016 19:22:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php:67) in /home/wmlmusic/public_html/admin/master_admin/bannercontroller.php on line 93
+[26-Feb-2016 17:48:05 UTC] PHP Fatal error:  Call to a member function get_all_rows() on a non-object in /home/wmlmusic/public_html/admin/master_admin/post_form.php on line 26
+[26-Feb-2016 17:49:09 UTC] PHP Fatal error:  Call to a member function get_all_rows() on a non-object in /home/wmlmusic/public_html/admin/master_admin/post_form.php on line 26
+[26-Feb-2016 17:49:13 UTC] PHP Fatal error:  Call to a member function get_all_rows() on a non-object in /home/wmlmusic/public_html/admin/master_admin/post_form.php on line 26
+[26-Feb-2016 18:38:58 UTC] PHP Fatal error:  Call to a member function get_all_rows() on a non-object in /home/wmlmusic/public_html/admin/master_admin/post_form.php on line 28
+[26-Feb-2016 18:54:24 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
+[26-Feb-2016 18:55:28 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
+[26-Feb-2016 19:13:21 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
+[26-Feb-2016 19:42:53 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
+[26-Feb-2016 19:43:20 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
+[26-Feb-2016 19:43:27 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
+[27-Feb-2016 03:25:18 UTC] PHP Fatal error:  Call to undefined function multi_dropdown() in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 68
+[27-Feb-2016 03:29:33 UTC] PHP Fatal error:  Call to undefined function multi_dropdown() in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 89
+[27-Feb-2016 03:30:21 UTC] PHP Fatal error:  Call to undefined function multi_dropdown() in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 90
+[28-Feb-2016 14:32:40 UTC] PHP Fatal error:  Call to a member function get_all_artistnames() on a non-object in /home/wmlmusic/public_html/admin/master_admin/post_form.php on line 27
+[28-Feb-2016 14:55:05 UTC] PHP Fatal error:  Call to undefined function printr() in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 206
+[28-Feb-2016 17:27:05 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
+[28-Feb-2016 17:27:32 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/wmlmusic/public_html/admin/master_admin/tpl/form_post.php on line 56
