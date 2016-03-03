@@ -1,0 +1,1 @@
+[18-Dec-2014 16:33:26 UTC] PHP Fatal error:  Call to undefined function wp_die() in /home/wmlmusic/public_html/site/admin/viewer_admin/plugins/cool-video-gallery/cool-video-gallery.php on line 27

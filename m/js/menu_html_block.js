@@ -1,0 +1,57 @@
+// <![CDATA[
+document.writeln('<ul class="menusm" id="menu-top-menu">');
+document.writeln('	<li><a href="index.php"><span>World Music Listing</span></a></li>');
+document.writeln('  <li><a href="#"><span>Browse</span></a></li>');
+document.writeln('  <li><a href="#"><span>Register Users</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>Add Users</span></a>');
+document.writeln('      	<li><a href="#"><span>View All Users</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+document.writeln('  <li><a href="#"><span>Create</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>Add Users</span></a>');
+document.writeln('      	<li><a href="#"><span>View All Users</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+document.writeln('  <li><a href="#"><span>Events</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>View Event Requests</span></a>');
+document.writeln('      	<li><a href="#"><span>Add Event</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+document.writeln('  <li><a href="#"><span>Manage</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>Account</span></a>');
+document.writeln('      	<li><a href="#"><span>Profile</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+document.writeln('  <li><a href="#"><span>Music</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>Add Music</span></a>');
+document.writeln('      	<li><a href="#"><span>Delete Music</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+document.writeln('  <li><a href="#"><span>Gallery</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>Add Pictures</span></a>');
+document.writeln('      	<li><a href="#"><span>Delete Pictures</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+document.writeln('  <li><a href="#"><span>Video</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>Add Videos</span></a>');
+document.writeln('      	<li><a href="#"><span>Delete Videos</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+document.writeln('  <li><a href="#"><span>Admin</span></a>');
+document.writeln('  	<ul>');
+document.writeln('  		<li><a href="#"><span>Add Pictures</span></a>');
+document.writeln('      	<li><a href="#"><span>Delete Pictures</span></a></li>');
+document.writeln('    	</ul>');
+document.writeln('  </li>');
+
+
+document.writeln('</ul>');
+document.writeln('<div class="clr"></div>');
+// ]]>

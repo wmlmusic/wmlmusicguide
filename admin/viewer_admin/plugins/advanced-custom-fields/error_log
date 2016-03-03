@@ -1,0 +1,1 @@
+[18-Dec-2014 16:29:16 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/wmlmusic/public_html/site/admin/viewer_admin/plugins/advanced-custom-fields/acf.php on line 37

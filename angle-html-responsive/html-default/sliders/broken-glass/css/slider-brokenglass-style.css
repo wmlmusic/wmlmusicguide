@@ -1,0 +1,135 @@
+/* TemplateAccess.com - Broken Glass Slider v1.00 */
+
+.dc_clear { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+
+.rm_container{
+	left:50%;
+	margin:0 0 0 -550px;
+	width:1100px;
+	overflow:hidden;
+	position:relative;
+	height:530px;
+	font-size:16px;
+	color:#FFF;
+}
+.rm_container h2{
+	background:transparent url(../images/lines.png) repeat top left;
+	padding:10px 30px;
+	position:absolute;
+	bottom:100px;
+	right:0px;
+	color:#000;
+	font-size:36px;
+	text-transform:uppercase;
+	text-shadow:1px 0px 1px #fff;
+
+}
+.rm_container ul{
+	width:1100px;
+}
+.rm_container ul li{
+	float:left;
+	position:relative;
+	overflow:hidden;
+	width:230px;
+	height:460px;
+	padding:0 0 0 30px;
+	margin:20px 0 0 0;
+	left:-10px;
+border:6px solid #ffffff;
+	background: #fff;
+}
+.rm_container ul li img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#FFF;
+}
+.rm_mask_right, .rm_mask_left{
+	position: absolute;
+	height: 115px;
+	background:#FFF;
+	width: 560px;
+	bottom: -30px;
+	left: 0px;
+	-moz-transform:rotate(-3deg);
+	-webkit-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+	transform:rotate(-3deg);
+}
+.rm_mask_right{
+	left:auto;
+	right:0px;
+	-moz-transform:rotate(3deg);
+	-webkit-transform:rotate(3deg);
+	-o-transform:rotate(3deg);
+	transform:rotate(3deg);
+}
+.rm_corner_right, .rm_corner_left{
+	background:#fff;
+	position:absolute;
+	width:200px;
+	height:100px;
+	bottom:0px;
+	left:-65px;
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+.rm_corner_right{
+	left:auto;
+	right:-65px;
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+.rm_nav a{
+	position:absolute;
+	top:200px;
+	width:38px;
+	height:87px;
+	cursor:pointer;
+	opacity:0.7;
+}
+.rm_nav a:hover{
+	opacity:1.0;
+}
+.rm_nav a.rm_next{
+	background:transparent url(../images/next.png) no-repeat top left;
+	right:-110px;
+}
+.rm_nav a.rm_prev{
+	background:transparent url(../images/prev.png) no-repeat top left;
+	left:-110px;
+}
+.rm_controls{
+	position:absolute;
+	top:0px;
+	left:-40px;
+	height:20px;
+}
+.rm_controls a{
+	cursor:pointer;
+	opacity:0.7;
+	padding-left:24px;
+	font-size:18px;
+	text-transform:uppercase;
+	height:20px;
+	float:left;
+	line-height:20px;
+	color:#333;
+	text-decoration:none;
+	font-weight:bold;
+}
+.rm_controls a:hover{
+	opacity:1.0;
+}
+.rm_controls a.rm_play{
+	display:none;
+	background:transparent url(../images/play.png) no-repeat center left;
+}
+.rm_controls a.rm_pause{
+	background:transparent url(../images/pause.png) no-repeat center left;
+}

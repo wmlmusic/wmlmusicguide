@@ -1,0 +1,438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Devaroe</title>
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/skeleton.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/layout.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/menusm.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/menusm.js"></script>
+<!-- PrettyPhoto Starts -->
+<link rel="stylesheet" type="text/css" href="prettyPhoto/css/prettyPhoto.css" />
+<script type="text/javascript" src="prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<!-- PrettyPhoto Ends -->
+<!-- Preloader Starts -->
+<link href="preloader/css/preloader.css" rel="stylesheet" />
+<script src="preloader/js/jquery.preloader.js" charset="utf-8"></script>
+<!-- Preloader Ends -->
+
+<!-- Ui To Top Starts -->
+<link href="ui_totop/css/ui.totop.css" rel="stylesheet" />
+<script src="ui_totop/js/jquery.ui.totop.js" charset="utf-8"></script>
+<!-- Ui To Top Ends -->
+
+<!-- DC Twitter Starts -->
+<link href="twitter_tweet/jquery.tweet.css" rel="stylesheet" />
+<script src="twitter_tweet/jquery.tweet.js" charset="utf-8"></script>
+<!-- DC Twitter End -->
+
+<script type="text/javascript" src="js/scripts.js"></script>
+<!-- Config User Intarface Box Import START -->
+<script type="text/javascript" src="js/head_html_default_block.js"></script>
+<script type="text/javascript" src="js/head_html_block.js"></script>
+<!-- Config User Intarface Box Import END -->
+
+<script type="text/javascript" src="js/tinynav.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		$('#menu-top-menu').tinyNav({
+			active: 'selected',
+			header: 'Navigation' 
+		});
+	});
+</script>
+</head>
+<body>
+<div class="body_pattern">
+  <div class="main">
+    <div class="container">
+      <div class="columns bg">
+        <div class="four columns">
+          <div class="sidebar">
+            <div class="header">
+              <div class="header_resize"> 
+                <!-- logo -->
+                <div class="logo">
+                  <div><a href="index.html">World Music Listing</a></div>
+                  <p>Diverse Music Guide</p>
+                </div>
+                <!-- logo -->
+                <div class="clr"></div>
+                <!-- search -->
+                <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="search">
+                  <form id="formsearch" name="formsearch" method="post" action="">
+                    <span>
+                    <input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" type="text" />
+                    </span>
+                    <input name="button_search" src="images/search_btn.png" class="button_search" type="image" />
+                  </form>
+                </div>
+                <!-- /search -->
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+              <div class="header_menu">
+                <div class="header_menu_resize"> 
+                  <!-- menu edit in file "js/menu_html_block.js" -->
+                  <div class="menu"> 
+                    <script type="text/javascript" src="js/menu_html_block.js"></script> 
+                  </div>
+                  <script type="text/javascript">
+            function changePage(page)
+            {
+            location.href=page;
+            }
+            </script> 
+                  
+                  <!--start small navigation-->
+                  <div class="smallnav">
+                    <select id="selectnav1" class="selectnav" onchange="changePage(this.value);">
+                      <option value="">- Navigation -</option>
+                      <option selected="" value="index.html">Home</option>
+                      <option value="index.html">→ Camera Slider</option>
+                      <option value="index-1.html">→ Coin Slider</option>
+                      <option value="index-2.html">→ Dream Accordian</option>
+                      <option value="index-3.html">→ Piecemaker Slider</option>
+                      <option value="index-4.html">→ Focused Slider</option>
+                      <option value="index-5.html">→ Ken Burns Panel Slider</option>
+                      <option value="index-6.html">→ Showcase Slider</option>
+                      <option value="index-7.html">→ Scarousel Slider</option>
+                      <option value="index-8.html">→ Flick Slider</option>
+                      <option value="index-9.html">→ Jfancy Slider</option>
+                      <option value="index-10.html">→ Touchwipe Slider</option>
+                      <option value="index-11.html">→ Panel Slider</option>
+                      <option selected="" value="about.html"> Pages</option>
+                      <option value="features_leftsidebar.html">Layouts</option>
+                      <option value="features_leftsidebar.html">→ Left Sidebar</option>
+                      <option value="features_rightsidebar.html">→ Right Sidebar</option>
+                      <option value="about.html">→ About us</option>
+                      <option value="gallery.html">→ Gallery</option>
+                      <option value="services.html">→ Services</option>
+                      <option value="404.html">→ 404  Error</option>
+                      <option value="dc-features.html">Features</option>
+                      <option value="dc-features.html">→ Features Overview</option>
+                      <option value="dc-format.html">dCodes Demo</option>
+                      <option value="dc-format.html">→ Format Shortcodes</option>
+                      <option value="dc-embed.html">→ Embed Shortcodes</option>
+                      <option value="dc-organize.html">→ Organize Shortcodes</option>
+                      <option value="dc-elements.html">→ Element Shortcodes</option>
+                      <option value="dcodes.html">Dreancides Documentation</option>
+                      <option value="dcodes.html">→ dCodes Overview </option>
+                      <option value="dcodes/documentation/index-format.html">→ Format</option>
+                      <option value="dcodes/documentation/index-embed.html">→ Embed</option>
+                      <option value="dcodes/documentation/index-organize.html">→ Organize</option>
+                      <option value="dcodes/documentation/index-elements.html">→ Elements</option>
+                      <option value="dcodes/documentation/index-sliders.html">→ Sliders</option>
+                      <option value="dcodes/documentation/index-all.html">→ All Shorcodes</option>
+                      <option value="portfolio_1.html">Media</option>
+                      <option value="gallery.html"> Gallery</option>
+                      <option value="gallery.html">→ Sortable Gallery</option>
+                      <option value="gallery/side-gallery/index.html">→ Side Gallery</option>
+                      <option value="gallery/desktop-gallery/index.html">→ Desktop Gallery</option>
+                      <option value="gallery/dreamfilm-gallery/index.html">→ Dreamfilm Gallery</option>
+                      <option value="gallery/photomatrix-gallery/index.html">→ Photomatrix Gallery</option>
+                      <option value="gallery/polaroid-gallery/index.html">→ Polaroid Gallery</option>
+                      <option value="gallery/portfolio-gallery/index.html">→ Portfolio Gallery</option>
+                      <option value="gallery/respo-gallery/index.html">→ Respo Gallery</option>
+                      <option value="gallery/vertical-gallery/index.html">→ Vertical Gallery</option>
+                      <option value="gallery/simple-gallery/index.html">→ Simple Gallery</option>
+                      <option value="portfolio_1.html"> Portfolio</option>
+                      <option value="portfolio_1.html">→ One Column</option>
+                      <option value="portfolio_2.html">→ Two Column</option>
+                      <option value="portfolio_3.html">→ Three Column</option>
+                      <option value="portfolio_4.html">→ Four Column</option>
+                      <option value="blog.html">Blog</option>
+                      <option value="blog2.html">→ Blog Post</option>
+                      <option value="contact.html">Contact</option>
+                    </select>
+                  </div>
+                  <!--end small navigation --> 
+                  <!-- /menu -->
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+            </div>
+            <div class="clr"></div>
+            <div class="sidebar_widgets comp">
+              <div class="sidebar_flickr">
+                <h2><em class="second_color">Devaroe Photostream</em></h2>
+                <div class="sidebar_padding">
+                  <div class="flickr"> <a href="IMG_15779263486222.jpeg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Devaroe BeachShoot','','IMG_15779263486222.jpeg',1)"><img src="IMG_15779263486222.jpeg" alt="" name="" width="60" height="60" border="0"></a> <a data-ylk="rspns:nav;t1:a4;t2:app-flk;t3:ct;elm:img;elmt:ct;itc:0;pkgt:10img;grpt:exp" class="d-b" href="IMG_15813138356363.jpeg"></a><a href="IMG_15813138356363.jpeg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Devaroe Beach Shoot','','IMG_15813138356363.jpeg',1)"><img src="IMG_15813138356363.jpeg" alt="" name="" width="60" height="60" border="0"></a> <a data-ylk="rspns:nav;t1:a4;t2:app-flk;t3:ct;elm:img;elmt:ct;itc:0;pkgt:10img;grpt:exp" class="d-b" href="IMG_15787736506726.jpeg"></a><a href="IMG_15787736506726.jpeg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('','','IMG_15787736506726.jpeg',1)"><img src="IMG_15787736506726.jpeg" alt="" name="" width="60" height="60" border="0"></a> <a data-ylk="rspns:nav;t1:a4;t2:app-flk;t3:ct;elm:img;elmt:ct;itc:0;pkgt:10img;grpt:exp" class="d-b" href="IMG_15794027746688.jpeg"></a></li> <li><a href="IMG_15794027746688.jpeg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('','','IMG_15794027746688.jpeg',1)"><img src="IMG_15794027746688.jpeg" alt="" name="" width="60" height="60" border="0"></a> <a data-ylk="rspns:nav;t1:a4;t2:app-flk;t3:ct;elm:img;elmt:ct;itc:0;pkgt:10img;grpt:exp" class="d-b" href="IMG_15838660844751.jpeg"></a><a href="IMG_15838660844751.jpeg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('','','IMG_15838660844751.jpeg',1)"><img src="IMG_15838660844751.jpeg" alt="" name="" width="60" height="60" border="0"></a> <a data-ylk="rspns:nav;t1:a4;t2:app-flk;t3:ct;elm:img;elmt:ct;itc:0;pkgt:10img;grpt:exp" class="d-b" href="IMG_15833698864498.jpeg"></a><a href="IMG_15833698864498.jpeg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('','','IMG_15833698864498.jpeg',1)"><img src="IMG_15833698864498.jpeg" alt="" name="" width="60" height="60" border="0"></a> </div>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+              <div class="sidebar_text">
+                <h2><em class="second_color">Text Widget</em></h2>
+                <div class="sidebar_padding">
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. </p>
+                  <div class="list_li"> </div>
+                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+              <div class="sidebar_rec">
+                <h2><em class="second_color">Recent Posts</em></h2>
+                <div class="sidebar_padding">
+                  <div class="pic"><a href="#"><a href="http://youtu.be/AqHbpLB7EPw"><img src="hi_devaroe.jpg" alt="Vybz Kartel-&#8220;Hi&#8221; (Music Video)" /></a></div>
+                  <h3><a href="http://youtu.be/AqHbpLB7EPw"><em class="second_color">Vybz Kartel-&#8220;Hi&#8221; (Music Video)</em></a><span>Posted On Oct. 18, 2013</span></h3>
+                  <div class="sep_clr small"></div>
+                  <div class="pic"><a href="http://youtu.be/d8KZo2Ab_2Q"><img src="bruki_devaroe.jpg" alt="Aidonia-&#8220;Bruki&#8221; (Fi Di Jockey Pt. 2) (Music Video)" /> </a> </div>
+                  <h3><a href="http://youtu.be/d8KZo2Ab_2Q"><em class="second_color">Aidonia-&#8220;Bruki&#8221; (Fi Di Jockey Pt. 2) (Music Video)</em></a><span>Posted On Jul. 13, 2013</span></h3>
+                  <div class="sep_clr small"></div>
+                  <div class="pic"><a href="http://youtu.be/Ols-sX5rChA"><img src="road_devaroe.jpg" alt="Popcaan-&#8220;Road Haffi Tek On&#8221; (Music Video)" /> </a> </div>
+                  <h3><a href="http://youtu.be/Ols-sX5rChA"><em class="second_color">Popcaan-&#8220;Road Haffi Tek On&#8221; (Music Video)</em></a><span>Mar. 9, 2013</span></h3>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="sidebar_text">
+                <h2><em class="second_color">Devaroe Twitter</em></h2>
+                <div class="sidebar_padding"> 
+                  <!-- DC Twitter Start -->
+                  <a class="twitter-timeline" href="https://twitter.com/Tht_EmO_Chick" data-widget-id="420498712633155584">Tweets by @Tht_EmO_Chick</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                  <!-- DC Twitter End --> 
+                </div>
+                <div class="clr"></div>
+              </div>
+              <!--
+          <div class="sidebar_twit ">
+            <h2><em class="second_color">Latest Tweets</em></h2>
+            <div class="sidebar_padding">
+              <p>Lorem ipsum dolor sit amet, consect etuer adipiscing elit <a href="#">•  5h ago</a></p>
+              <p>Donec ut enim in risus molestie posuere non eu massa. 
+                Vestibulum vel odio vel libero <a href="#">•  10h ago</a></p>
+              <p>Praesent mattis imperdiet urna et luctus.
+                Duis accumsan, arcu sit amet mattis posuere, tellus augue <a href="#">•  2d ago</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+          -->
+              <div class="clr"></div>
+            </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <div class="twelve columns">
+          <div class="centercol last"> 
+            <!--social-->
+            <div class="social">
+              <div class="social_text"><a href="#"></a></div>
+              <div class="social_img"><a href="https://twitter.com/Tht_EmO_Chick"><img src="images/spacer.gif" alt="" width="25" height="25" class="social1" /></a> <a href="https://www.facebook.com/devaroe"><img src="images/spacer.gif" alt="" width="25" height="25" class="social2" /></a> <a href="#"><img src="images/spacer.gif" alt="" width="25" height="25" class="social3" /></a></div>
+            </div>
+            <!--social-->
+            <div class="clr"></div>
+            <!-- now_page -->
+            <div class="now_page">
+              <div class="now_page_resize">
+                <h1>Devaroe<span>Print/Video/Promotional Model, Event Hostess, Brand Ambassador</span></h1>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+            </div>
+            <!-- /now_page -->
+            <div class="clr"></div>
+            <div class="content">
+              <div class="content_resize" id="gallery"> 
+                <!-- content start -->
+                <h2>Model Devaroe 2013 Video Appearance</h2>
+                <div class="pic"><a href="dev_jatourist800x600.jpg" class="prettyPhoto" rel="prettyPhoto[id]"><img src="dev_jatourist.jpg" alt="Devaroe-Jamaica Tourist Board" /> </a></div>
+                <p>St. Anns Bay, W.I. Jamaican born model Devaroe rode off into last year with multiple appearances for some of Dancehall top artists, and several known companies based in the Caribbean. Throughout the year Devaroe was spotted promoting/hosting events for well-known companies from Red Stripe, Appleton, and Tropicana''s Tropics Jamaica to Digicel and Jamaica's Tourist Board. She has also been featured in videos such as Vybz Kartel's &#8220;Hi&#8221; and Konshens &#8220;Couple Up&#8221; as well as others.</p>
+                <a href="" class="more-link">
+            Devaroe Clip &nbsp;»        </a></p>
+                <div class="clr"></div>
+                <div class="sep_clr"></div>
+                <div class="clr"></div>
+                <div class="cols2">
+                  <div class="six columns alpha">
+                    <div class="col2">
+                      <h2><a href="http://youtu.be/AqHbpLB7EPw">Vybz Kartel-"Hi" (Music Video)</a></h2>
+                      <div class="pic"><a href="hidev800x600.jpg" class="prettyPhoto" rel="prettyPhoto[id]"><img src="devaroe_hi337x217.jpg" alt="Devaroe-&#8220;Hi&#8221;" /> </a></div>
+                      <p>Video/Print model Devaroe says “Hi” to the world with her latest appearance in the visual to Vybz Kartel's single “Hi”.<a href="http://youtu.be/AqHbpLB7EPw"><br />
+Watch &#8220;Hi&#8221; (Music Video)&nbsp;&#187;</a></p>
+                    </div>
+                  </div>
+                  <div class="six columns omega">
+                    <div class="col2 last">
+                      <h2><a href="http://youtu.be/d8KZo2Ab_2Q">Aidonia-"Bruki" (Music Video)</a></h2>
+                      <div class="pic"><a href="dev_onset800x600.jpg" class="prettyPhoto" rel="prettyPhoto[id]"><img src="bruki_devaroe337x217.jpg" alt="Devaroe-&#8220;Bruki&#8221; (Fi Di Jockey Pt. 2)" /> </a></div>
+                      <p>Devaroe plays as the secretary of Aidonia's Lawrence Enterprises in the music video for his single titled &#8220;Bruki&#8221;. <a href="http://youtu.be/d8KZo2Ab_2Q"><br />
+Watch "Bruki" (Fi Di Jocket Pt. 2) (Music Video) &#187;</a></p>
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+                <div class="sep"></div>
+                <div class="cols2">
+                  <div class="six columns alpha">
+                    <div class="col2">
+                      <h2><a href="http://youtu.be/Ols-sX5rChA">Popcaan-"Road Haffi Tek On" (Music Video)</a></h2>
+                      <div class="pic"><a href="roadtek_devaroe800x600.jpg" class="prettyPhoto" rel="prettyPhoto[id]"><img src="roadtekon_devaroe337x217.jpg" alt="Devaroe-&#8220;Road Haffi Tek On&#8221;" /> </a></div>
+                      <p>Devaroe takes on the role of one of Popcaan's ladies in the video for his song for "Road Haffi Tek On". <a href="http://youtu.be/Ols-sX5rChA"><br />
+Watch "Road Haffi Tek On" (Music Video) &#187;</a></p>
+                    </div>
+                  </div>
+                  <div class="six columns omega">
+                    <div class="col2 last">
+                      <h2><a href="http://youtu.be/RWm6D2dUJZ0">Konshens-&#8220;Couple Up&#8221; (Music Video)</a></h2>
+                      <div class="pic"><a href="couple_up_devaroe800x600.jpg" class="prettyPhoto" rel="prettyPhoto[id]"><img src="coupleup_devaroe337x217.jpg" alt="Image" /> </a></div>
+                      <p>Devaroe makes her first appearance as a waitress in Konshens video for his single record "Couple Up". <a href="http://youtu.be/RWm6D2dUJZ0"><br />
+Watch "Couple Up" (Music Video) &nbsp;&#187;</a></p>
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+                <div class="clr"></div>
+                
+                <!-- content end -->
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+            </div>
+            <!-- /content -->
+            <div class="clr"></div>
+            <div class="sidebar_widgets mob">
+              <div class="sidebar_flickr">
+                <h2><em class="second_color">Photostream</em></h2>
+                <div class="sidebar_padding">
+                  <div class="flickr"> <a href="#"><img src="http://cdn.pimg.co/p/60x60/858652/fff/img.png" alt="Image BgColor - 858652" /></a> <a href="#"><img src="http://cdn.pimg.co/p/60x60/171666/fff/img.png" alt="Image BgColor - 171666" /></a> <a href="#"><img src="http://cdn.pimg.co/p/60x60/257466/fff/img.png" alt="Image BgColor - 257466" /></a> <a href="#"><img src="http://cdn.pimg.co/p/60x60/343266/fff/img.png" alt="Image BgColor - 343266" /></a> <a href="#"><img src="http://cdn.pimg.co/p/60x60/429066/fff/img.png" alt="Image BgColor - 429066" /></a> <a href="#"><img src="http://cdn.pimg.co/p/60x60/514866/fff/img.png" alt="Image BgColor - 514866" /></a> </div>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+              <div class="sidebar_text">
+                <h2><em class="second_color">Text Widget</em></h2>
+                <div class="sidebar_padding">
+                  <p>Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. </p>
+                  <div class="list_li"> </div>
+                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+              <div class="sidebar_rec">
+                <h2><em class="second_color">Recent Posts</em></h2>
+                <div class="sidebar_padding">
+                  <div class="pic"><a href="#"><img src="http://cdn.pimg.co/p/56x56/943866/fff/img.png" alt="Image BgColor - 943866" /> </a> </div>
+                  <h3><a href="#"><em class="second_color">Donec pede justo</em></a><span>Posted On Mar</span></h3>
+                  <div class="sep_clr small"></div>
+                  <div class="pic"><a href="#"><img src="http://cdn.pimg.co/p/56x56/102967/fff/img.png" alt="Image BgColor - 102967" /> </a> </div>
+                  <h3><a href="#"><em class="second_color">Ut non mauris ante</em></a><span>Posted On Mar</span></h3>
+                  <div class="sep_clr small"></div>
+                  <div class="pic"><a href="#"><img src="http://cdn.pimg.co/p/56x56/111547/fff/img.png" alt="Image BgColor - 111547" /> </a> </div>
+                  <h3><a href="#"><em class="second_color">Nunc eget lectus</em></a><span>Posted On Mar</span></h3>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="sidebar_text">
+                <h2><em class="second_color">Latest Tweets</em></h2>
+                <div class="sidebar_padding"> 
+                  <!-- DC Twitter Start -->
+                  <div id="ticker1" class="query pad"></div>
+                  <!-- DC Twitter End --> 
+                </div>
+                <div class="clr"></div>
+              </div>
+              <!--
+          <div class="sidebar_twit ">
+            <h2><em class="second_color">Latest Tweets</em></h2>
+            <div class="sidebar_padding">
+              <p>Lorem ipsum dolor sit amet, consect etuer adipiscing elit <a href="#">•  5h ago</a></p>
+              <p>Donec ut enim in risus molestie posuere non eu massa. 
+                Vestibulum vel odio vel libero <a href="#">•  10h ago</a></p>
+              <p>Praesent mattis imperdiet urna et luctus.
+                Duis accumsan, arcu sit amet mattis posuere, tellus augue <a href="#">•  2d ago</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+          -->
+              <div class="clr"></div>
+            </div>
+            <!-- prefooter -->
+            <div class="prefooter_bg">
+              <div class="prefooter">
+                <div class="prefooter_resize">
+                  <div class="four columns">
+                    <div class="fcol first">
+                      <h2><em class="footer_h2_font">Devaroe Services</em></h2>
+                      <p><a href="Devaroe_Photo.html">Print & Promotional Model</a><br />
+                        Digicel, Tropicana Tropics, Stan Up Roots Drink...</p>
+                      <p><a href="Devaroe_Videos.html">Video Model</a><br />
+                        Vybz Kartel-"Hi" <br />
+Aidonia-"Bruki" (Fi Di Jockey Pt. 2) <br />
+Popcaan-"Road Haffi Tek On<br />
+Konshens-"Couple Up"</p>
+                      <p><a href="#">Event Hostess & Brand Ambassador</a><br />
+                        Red Stripe, Appleton, Best Dressed...</p>
+                    </div>
+                  </div>
+                  <div class="four columns">
+                    <div class="fcol">
+                      <h2><em class="footer_h2_font">About Devaroe</em></h2>
+                      <p>My name is Devaroe Garnett I am an 18 year old model born and raised in Ocho Rios, Jamaica. I'm one person who loves challenges and always try to fulfill any assignment that comes my way.</p>
+                      <p> </p>
+                    </div>
+                  </div>
+                  <div class="three columns">
+                    <div class="fcol last">
+                      <h2><em class="footer_h2_font">Get In Touch</em></h2>
+                      <p><span><em>Facebook:</em></span><a data-ylk="t4:mu;elm:itm;elmt:pty;itc:0;rspns:nav" href="https://www.facebook.com/devaroe"> <strong>   Devaroe</strong></a><br />
+                        <span><em>Instagram:</em></span> <a data-ylk="t4:mu;elm:itm;elmt:pty;itc:0;rspns:nav" href="http://instagram.com/tht_emo_chick94"> <strong>   Devaroe</strong></a><br />
+                        <span><em>Twitter:</em></span> <a data-ylk="t4:mu;elm:itm;elmt:pty;itc:0;rspns:nav" href="https://twitter.com/Tht_EmO_Chick"><strong>   Devaroe</strong></a><br /></p>
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+            </div>
+            <div class="clr"></div>
+            <!-- /prefooter --> 
+            <!-- footer -->
+            <div class="footer">
+              <div class="footer_resize">
+                <p>&copy; Copyright WMLMusicGuide.com. All Rights Reserved. 
+                  Design by <a href="http://www.wmlmusicguide.com/" target="_blank" title="DreamTemplate"><em class="a_footer_color">World Music Listing</em></a></p>
+                <div class="clr"></div>
+              </div>
+              <div class="clr"></div>
+            </div>
+            <!-- footer -->
+            <div class="clr"></div>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+</body>
+</html>

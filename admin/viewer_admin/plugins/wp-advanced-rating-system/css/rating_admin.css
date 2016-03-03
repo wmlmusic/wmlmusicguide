@@ -1,0 +1,11 @@
+#wpars_rating_settings {width: 100%;}
+#wpars_rating_settings td { border: 1px solid #dfdfdf;}
+#wpars_rating_settings .left{width: 22%;padding-top: 10px;font-weight: bold;}
+#wpars_rating_settings .right textarea{width: 100%;}
+.wpars_rating_settings select { padding: 2px 5px 2px 3px; margin-right: 5px;}
+.wpars_input_hidden { display: none;  position: absolute;left: -9999px;}
+#shape_default label, #color_default label {display: inline-block;cursor: pointer;padding: 3px;opacity: 1; text-align: center;border: 2px solid #dfdfdf;}
+#shape_default label:hover, #color_default label:hover {background-color: #efefef;opacity: 1;border: 2px solid #ff6600;}
+#shape_default .wpars_selected, #color_default .wpars_selected {background-color: #dfdfdf;opacity: 1;border: 2px solid #ff0000;}
+.wpars_admin_widget_note { font-style:italic;  font-size: 11px;}
+.wpars_admin_widget_title { font-weight: bold;}

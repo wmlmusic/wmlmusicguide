@@ -1,0 +1,125 @@
+/* headerwrap */
+
+
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+ 
+		
+		}
+		
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container h2{ font-size:22px !important;}
+	.social{ padding-right:1%;}
+	.search{ padding-left:1% !important;}
+    .sidebar_padding{ padding-left:23px;}
+	.sidebar h2{ padding:20px 17px;}
+	.columns.bg { margin:0px auto; padding:0; width:100%;  background:url(../images/columns_bg2.png) 10px top no-repeat !important; }
+	 .container .col4{ width:30%; margin-right:5%;}	 
+	 #slider-wrapper object { height: 320px; }
+
+ 
+	}
+	 
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	#slider-wrapper object { height: 260px; }
+	#now_slider {padding:0 0 40px;  background:url(../images/slider_bg1.png) no-repeat bottom center;}/**/
+	.menu ul { display: none;}
+	.menu .tinynav { padding: 3px 0 3px; margin: 0px auto; width: 100%; display: block; height: 27px; border: 1px solid #505050; }
+     #coment2, #coment3{ margin-left:0px;}
+	 #coment .podpis, #coment2 .podpis, #coment3 .podpis { float:none;}
+    .img_hover_box.pic a img.r_plus_overlay { display: none;}
+	.img_hover_box.pic a img.r_plus { display: none;}
+	.header_resize{ background:url("../images/header_bg.png") repeat scroll center top transparent;}
+	.header_menu{ background:url("../images/menu_bottom1.png") no-repeat scroll center bottom transparent !important;}
+	.sidebar_widgets{ background:url("../images/sidebar_bg.png") repeat scroll center top transparent;}
+	.search span{ width:44%;}
+	.search{ padding-left:33%;}
+	.now_page{ padding-top:20px;}
+	.social{ padding:18px 0px 0px 0px;}
+	.container .comp{ display:none !important;}
+	.container .mob{ display:block !important;}
+	 .prefooter{ background:none;}
+	.flickr a img{ margin-right:0px;}
+	.sidebar_widgets.mob { padding-bottom:0px;}
+	.sidebar_widgets.mob h2 {background: url("../images/sep.png") repeat-x scroll left bottom transparent !important; margin: 0; padding: 20px;}
+	.columns.bg{ background:none !important;}
+	 .container .col4{ width:100%; margin-right:0px;}	
+ 
+
+ 
+	  
+
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+ 
+
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	#slider-wrapper object { height: 200px; }
+	#now_slider {padding:0 0 40px;  background:url(../images/slider_bg2.png) no-repeat bottom center;}/**/
+     .fl,.fr{ float:none;}
+     .fl.btn{ float:left;}
+	 .fr.btn{ float:right;}
+	 #contactform_main label{ width:54px;}
+	 .flickr { margin-left:6px !important;}
+	 .flickr a img{ margin:1px 8px 0 0px !important;}
+	 .pic.larg a img{width:100%; height:auto;}
+	 
+	 
+	/*.works h2{ margin-left:70px;}
+*/		}
+		
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

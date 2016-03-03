@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+.header_menu {padding:0 0 113px 0; margin:0 auto; width:100%; background:url(../images/menu_bottom.png) no-repeat bottom center; }
+.header_menu_resize {padding:0; margin:0 auto; width:100%; background:url(../images/header_bg.png) repeat-y top center; }/**/
+/* DESIGN TOPNAV (mainmenu) */
+.menu { margin:0 auto; padding:0; text-transform:uppercase; font-size:16px; font-style:normal; width:100%; float:none;}
+/* level 0 */
+.menu ul.menusm { padding:0 0 0px; margin:0 auto;  }
+.menu ul li.ms_top { /*float:left;*/ display:block; height:45px; }
+/*.menu ul li span.empty_block {width:1px; padding-right:320px;}/**/
+.menu ul li a.ms_top { display:block; margin:0; font-weight:normal; color:#fff; text-decoration:none;text-align:center; 
+padding:0 0px 0;}
+.menu ul li a.ms_top span { color:#fff; }
+
+.menu ul li a.ms_top span { display:block; margin:0; padding:14px 0px 30px 0px; height:14px; width:100%; }
+
+/*menu_sep*/
+/*.menu ul li a.ms_top {background:url(../images/menu_sep.png) no-repeat right top; padding:0 5px 0 2px;}
+.menu ul li a.ms_top.ms_first { padding-left:5px; }*/
+.menu ul li a.ms_top.ms_last {background:none; padding-right:0px;}/**/
+
+/*//active*/
+.menu ul li#active_menu-nav a.ms_top,
+.menu ul li a.ms_top.active,
+.menu ul li a.ms_top.ms_hover,
+.menu ul li.active a.ms_top,
+.menu ul li a.ms_top.ms_hover span,
+.menu ul li.active a.ms_top span { color:#ff8604; text-decoration:none; }
+
+.menu ul li.ms_top a.ms_top.ms_hover span,
+.menu ul li.ms_top.active a.ms_top span {background:url(../images/menu_a.png) repeat-x top center; /**/}
+
+
+/*/////////////////////buttons*/
+/* have_submenu */
+.menu ul li a.ms_top.ms_havesubmenu span {/*background:url(../images/menu_r_d.png) no-repeat right top;/**/ }
+.menu ul li.active a.ms_top.ms_havesubmenu span {/*background:url(../images/menu_r_da.png) no-repeat right top;/**/ }
+.menu ul li a.ms_top.ms_havesubmenu.ms_hover span {/*background:url(../images/menu_r_da.png) no-repeat right top;/**/ }
+.menu ul li a.active.ms_top,
+.menu ul li a.ms_hover.ms_top,
+.menu ul li a.ms_havesubmenu.active.ms_top,
+.menu ul li a.ms_havesubmenu.ms_hover.ms_top {/*background:url(../images/menu_l.png) no-repeat top left;*/}
+
+
+/* level 1 */
+.menu ul li ul { line-height: 1em; margin:0; padding:0px 0 0  0px; top:1px; left:100%; font-style:normal; font-size:14px;line-height:1em; /*border-top:1px solid #ffe012; */text-transform:lowercase;}
+.menu ul li ul li { padding:0; border-bottom:1px solid #101010; margin:0;}
+.menu ul li ul li.ms_last { border-bottom:none; }
+.menu ul li ul li a { display:block; margin:0; padding:15px 10px 15px 10px; width:120px;font-weight:normal; color:#fff; 
+background:url(../images/overlay.png) repeat top center;
+ }
+.menu ul li ul li a span { color:#fff; }
+
+.menu ul li ul li a span { padding:0 0 0 0px; /*background:url(../images/menu_sub_li.png) no-repeat center left;*/}
+
+.menu ul li ul li.ms_last a { }
+.menu ul li ul li a.ms_hover { text-decoration:none;}
+.menu ul li ul li ul { top:0px; left:140px;  }
+.menu ul li ul li a.ms_first.ms_havesubmenu.ms_hover,
+.menu ul li ul li a.ms_first.ms_havesubmenu.active,
+.menu ul li ul li a.ms_first.ms_havesubmenu.ms_hover span,
+.menu ul li ul li a.ms_first.ms_havesubmenu.active span,
+.menu ul li ul li a.active span,
+.menu ul li ul li a.active,
+.menu ul li ul li a.ms_hover ,
+.menu ul li ul li a.ms_hover span {color:#ff8604;/*background:#92a869;*/}
+
+.menu ul li ul li a.ms_first.ms_havesubmenu.ms_hover span,
+.menu ul li ul li a.ms_first.ms_havesubmenu.active span,
+.menu ul li ul li a.active span,
+.menu ul li ul li a.ms_hover span {/*background:url(../images/menu_sub_li_a.png) no-repeat center left;*/}
+
+.menu * { z-index:999; }
+
+
+/* DO NOT EDIT!!! */
+ul.menusm { list-style:none; }
+ul.menusm li { cursor:pointer; position:relative; }
+ul.menusm li a { position:relative; }
+ul.menusm li ul { display:none; position:absolute; list-style:none; height:auto; }
+ul.menusm li ul li ul { position:absolute; list-style:none; }
+
+.smallnav { margin: 0 0 10px 0; display: none; font-size: 14px; height:auto; width:100%; padding:0px; }
+.smallnav select { width: 100%; height: 30px; padding: 2px 5px 2px 10px ; color: #000; font-size:20px; }
+.smallnav .head { }
+.smallnav .head a { color:#CCC; text-align:center;  font-size: 18px;  text-decoration: none; color:#d1d1d1; display: block; background:url(../images/nav-arrow.png) no-repeat right; } 
+.smallnav ul { list-style: none; margin:10px 0 0 0; }
+.smallnav li { margin:5px 0 0 0; float: none; line-height:30px; }
+.smallnav li a {  padding:0 0 0 20px; text-decoration: none; color:#d1d1d1; display: block; border-radius:5px; background: #1e1e1e; }
+.smallnav li a:hover { background:#424242; }
